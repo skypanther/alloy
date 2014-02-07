@@ -1,0 +1,25 @@
+<Alloy>
+    <NavigationWindow platform="ios" formFactor="tablet">
+        <Window id="win" title="ALOY-844">
+            <RightNavButton>
+                <View id="viewButtonsNavBar">
+                    <Button id="buttonFavorite" image="/images/Star.png" onClick="favorite" />
+                </View>
+            </RightNavButton>
+            <View>
+            	<Label text="This is a label"/>
+            </View>
+        </Window>
+    </NavigationWindow>
+ 
+    <Window id="win" platform="ios" formFactor="handheld" backgroundColor="white">
+        <RightNavButton>
+            <View id="viewButtonsNavBar">
+                <Button id="buttonFavorite" image="/images/Star.png" onClick="favorite" />
+            </View>
+        </RightNavButton>
+            <View>
+            	<Label text="This is a label"/>
+            </View>
+    </Window>
+</Alloy>
